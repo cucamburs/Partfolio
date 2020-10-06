@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #0c1e2d;
+
+}
+
+
+
+header {
+
+  background-color: #09f;
+  display: block;
+  font-size: 1.3em;
+   padding: 0.3em ; 
+  font-family: 'Roboto Slab', serif;
+
+}
+
+#autorization {
+  margin-top: 5px;
+  font-size: 1.1em;
+}
+
+@media (min-width: 1051px) {
+  #autorization {
+    padding-top: 10%;
+    width: 35%;
+    margin-left: 38%;
+  }
+}
+
+@media (max-width: 1050px) {
+  #autorization {
+  	padding-top: 10%;
+    width: 90%;
+    margin-left: 10%;
+  }
+}
+
+#autorization label {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4em;
+  font-family: 'Roboto Slab', serif;
+}
+
+#autorization label > span {
+  color: #e87e7e;
+}
+
+#autorization input,#autorization textarea {
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 10px 2%;
+  border-radius: 7px;
+  border: 2px solid silver;
+  font-size: 0.9em;
+  color: #4a4a4a;
+}
+
+#autorization input:focus, #autorization textarea:focus {
+  border-color: #333;
+}
+
+
+.btn {
+  float: right;
+  margin: 10px 30%;
+  padding: 7px 40px;
+  border-radius: 5px;
+  /* font-size: 2em; */
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  text-shadow: #454545 0 0 2px;
+  box-shadow: 0 6px #000;
+  cursor: pointer;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+.btn:hover {
+  background-color: #c9302c;
+  border-color: #ac2925; 
+}
+
+.btn:active {
+  background-color: #c9302c;
+  border-color: #ac2925;
+  box-shadow: 0 4px #00000087;
+  transform: translateY(4px);
+}
